@@ -5,11 +5,15 @@ using namespace std; //so we don't need the prefix std::
 
 int main()
 {
+  int number;
+ std::cout<<"Please enter a whole number:\n";
+ std::cin>>number;
   
-  cout<<"Please enter a whole number:\n";
-  
-  cout<<"Please enter another whole number:\n";
+  int number1;
+ std::cout<<"Please enter another whole number:\n";
+ std::cin>>number1;
 
+  
   cout<<"Of those two numbers, the biggest is: ";
   cout<<endl<<"Thank you for playing.\n";
 
