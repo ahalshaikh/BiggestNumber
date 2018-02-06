@@ -13,8 +13,16 @@ int main()
  std::cout<<"Please enter another whole number:\n";
  std::cin>>number1;
 
-  
-  cout<<"Of those two numbers, the biggest is: ";
+  int biggest;
+  if(number > number1)
+  {
+biggest = number;
+  }
+  else 
+  {
+  biggest = number1;
+  }
+  cout<<"Of those two numbers, the biggest is:"<<biggest;
   cout<<endl<<"Thank you for playing.\n";
 
   return 0;
