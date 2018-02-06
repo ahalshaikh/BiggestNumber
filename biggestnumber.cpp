@@ -22,7 +22,7 @@ biggest = number;
   {
   biggest = number1;
   }
-  cout<<"Of those two numbers, the biggest is:"<<biggest;
+  cout<<"Of those two numbers, the biggest is: "<<biggest;
   cout<<endl<<"Thank you for playing.\n";
 
   return 0;
